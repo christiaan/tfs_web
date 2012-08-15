@@ -1,0 +1,32 @@
+[
+  {
+    "theme" : "/stylesheets/theme.css",
+    "title" : "Lorem ipsum",
+    "text" : [
+		"1 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"2 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"3 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"4 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"5 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut."
+    ],
+    "index" : 0,
+    "bg" : "/images/wallpapers/bg.jpg"
+  },
+  {
+    "theme" : "/stylesheets/theme.css",
+    "title" : "Song 2",
+    "text" : [
+		"6 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"7 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"8 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"9 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"10 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"11 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"12 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"13 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut.",
+		"14 Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nNulla laoreet pellentesque nisi,\nat gravida lorem consequat ut."
+    ],
+    "index" : 0,
+    "bg" : "/images/wallpapers/bg.jpg"
+  }
+]

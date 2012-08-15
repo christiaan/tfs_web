@@ -1,0 +1,39 @@
+#screen {
+  display: table;
+  height: 100%;
+}
+
+#text {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 256px;
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 60px;
+  color: #fff;
+  /* text-shadow:
+    -3px 0 2px #000,
+    -3px 3px 2px #000,
+    0 3px 2px #000,
+    3px 3px 2px #000,
+    3px 0 2px #000,
+    3px -3px 2px #000,
+    0 -3px 2px #000,
+    -3px -3px 2px #000;
+    */
+  /*
+  text-shadow: -3px 0 2px #000, 0 3px 2px #000,
+        3px 0 2px #000, 0 -3px 2px #000;
+  */
+  -webkit-text-stroke: 2px #000;
+}
+
+#bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-webkit-background-size: cover;
+  background-size: cover;
+}

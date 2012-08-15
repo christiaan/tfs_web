@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+  <title>The Free Song Singer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/stylesheets/master.css" />
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/javascripts/libs/jquery.js"></script>
+  <script src="/javascripts/libs/underscore.js"></script>
+  <script src="/javascripts/libs/backbone.js"></script>
+  <script src="/javascripts/libs/slaves.coffee"></script>
+  <script src="/javascripts/models/searchindex.coffee"></script>
+  <script src="/javascripts/models/song.coffee"></script>
+  <script src="/javascripts/models/playlist.coffee"></script>
+  <script src="/javascripts/views/playlist.coffee"></script>
+  <script src="/javascripts/views/songindexes.coffee"></script>
+  <script src="/javascripts/views/master.coffee"></script>
+  <script src="/javascripts/views/search.coffee"></script>
+  <script src="/javascripts/master.coffee"></script>
+<body>
+<div id="toolbar">
+  <img id="logo" src="/images/redbird.gif" alt="Red Bird" />
+  <input id="command" type="text" />
+  <div id="background_list"></div>
+</div>
+<div id="screen">
+  <div id="assets" class="column">
+    <div class="toolbar">
+      <span class="button" alt="Tekst weg (Shift Del)">Tekst weg (Shift Del)</span>
+      <span alt="Scherm leeg (Shift Pause)" class="button"></span>
+    </div>
+    <div class="contents">
+      <div id="searchresults"></div>
+    </div>
+  </div>
+  <div id="playlist" class="column">
+    <div class="toolbar">
+      <span class="button" data-action="playlist-open">Open</span>
+      <span class="button" data-action="playlist-save">Save</span>
+      <span class="button">Previous</span>
+      <span class="button">Next</span>
+    </div>
+    <div class="contents">
+    </div>
+  </div>
+  <div id="stage" class="column">
+    <div class="toolbar">
+      <span class="button" data-action="stage-revert">Revert</span>
+      <span class="button" data-action="stage-commit">Commit</span>
+    </div>
+    <div class="contents">
+      <div class="indexes"></div>
+      <iframe id="staging_iframe" frameborder=0 src="about:blank"></iframe>
+    </div>
+  </div>
+  <div id="live" class="column">
+    <div class="toolbar">
+    </div>
+    <div class="contents">
+      <div class="indexes"></div>
+      <iframe id="live_iframe" frameborder=0 src="about:blank"></iframe>
+    </div>
+  </div>
+</div>
+<input id="playlist-upload" type="file">
+</body>
+</html>

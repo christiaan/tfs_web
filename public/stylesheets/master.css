@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: #00B5FF;
+}
+
+#playlist-upload {
+  width: 0;
+  height: 0;
+}
+
+#screen {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.column {
+  box-sizing: border-box;
+  border: 1px solid gray;
+  width: 25%;
+  height: 100%;
+  margin: 0
+  padding: 0 10px;
+  position: absolute;
+  left:0;
+}
+
+.column .toolbar {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 4px;
+}
+
+.column .contents {
+  box-sizing: border-box;
+  background-color: lightblue;
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.button {
+  cursor: pointer;
+}
+
+#assets {
+  left: 0;
+}
+#playlist {
+  left: 25%;
+}
+#stage {
+  left: 50%;
+}
+#live {
+  left: 75%;
+}
+#stage, #live {
+  -webkit-user-select: none;
+  user-select: none;
+}
+#stage .indexes,
+#live .indexes {
+  position: absolute;
+  top: 0;
+  bottom: 40%;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.indexes div.text-index {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.indexes div.current {
+  background-color: #000;
+  color: #fff;
+}
+
+#stage iframe,
+#live iframe {
+  position: absolute;
+  top: 60%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 40%;
+}
+
+#searchresults {
+  overflow: auto;
+  height: 100%;
+}
